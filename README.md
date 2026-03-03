@@ -59,7 +59,8 @@ Auto-enables all of the following:
 
 ### Lesson 5: @Primary and Name Resolution
 - Combining `@Primary` with name-based resolution
-- Understanding the priority: explicit name resolution > @Primary > error
+- Understanding the priority: **@Primary > name resolution > error**
+- When multiple beans exist, `@Primary` takes precedence over name-based resolution
 - Demonstrates bean selection strategy
 
 ---
