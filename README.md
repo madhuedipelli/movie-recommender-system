@@ -63,6 +63,8 @@ Auto-enables all of the following:
 - When multiple beans exist, `@Primary` takes precedence over name-based resolution
 - Demonstrates bean selection strategy
 
+### Lesson 6: TO DO
+
 ---
 
 ## Project Structure
