@@ -63,9 +63,12 @@ Auto-enables all of the following:
 - When multiple beans exist, `@Primary` takes precedence over name-based resolution
 - Demonstrates bean selection strategy
 
-### Lesson 6: TO DO
+### Lesson 6:
+- `@Qualifier` annotation for fine-grained control over bean selection
+- Resolving ambiguity when multiple beans of the same type exist
+- Using `@Qualifier` to specify which bean to inject when `@Primary` is not sufficient
+- @Qualifier takes precedence over @Primary
 
----
 
 ## Project Structure
 
