@@ -69,6 +69,10 @@ Auto-enables all of the following:
 - Using `@Qualifier` to specify which bean to inject when `@Primary` is not sufficient
 - @Qualifier takes precedence over @Primary
 
+### Lesson 7:
+- Constructor injection and setter injection
+- by default, qualifier name is class name with first letter in lowercase, but can be overridden with @Component("customName") or @Qualifer("customName")
+
 
 ## Project Structure
 
