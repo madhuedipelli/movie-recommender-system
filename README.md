@@ -74,6 +74,15 @@ Auto-enables all of the following:
 - by default, qualifier name is class name with first letter in lowercase, but can be overridden with @Component("customName") or @Qualifer("customName")
 
 
+### Lesson 8:
+- Prototype scope and singleton scope
+- By default, Spring beans are singleton scoped, meaning only one instance is created and shared across the application.
+- Prototype scope creates a new instance each time it is requested.
+- other scopes include request, session, and application scopes for web applications.
+- Singleton beans are created at application startup and remain in memory until the application is shut down, 
+  - while prototype beans are created on demand and can be garbage collected when no longer needed.
+
+
 ## Project Structure
 
 ```
