@@ -82,6 +82,14 @@ Auto-enables all of the following:
 - Singleton beans are created at application startup and remain in memory until the application is shut down, 
   - while prototype beans are created on demand and can be garbage collected when no longer needed.
 
+### Lesson 9:
+- Mixed Bean Scope
+- When a prototype bean is injected into a singleton bean, the prototype bean is created only once at the time of injection and shared across the singleton bean, which can lead to unexpected behavior if the prototype bean is stateful.
+- one of the ways to handle this issue is through proxyMode inside @Scope
+- prototyped bean is not injected at the time of creation,
+- instead, a proxy is injected that creates a new instance of the prototype bean each time it is accessed, ensuring that the singleton bean gets a new instance of the prototype bean whenever it needs to use it.
+- @Lookup annotation can also be used to achieve similar behavior by defining a method that Spring overrides to return a new instance of the prototype bean each time it is called.
+    - this was not practiced in the course.
 
 ## Project Structure
 
